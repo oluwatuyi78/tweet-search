@@ -393,7 +393,7 @@ module.exports = function(window, document, jQuery, navigator) {
           }
         }
       };
-      if (typeof window.jQuery === "undefined") {
+      if (typeof window.angularjs === "undefined") {
         _preloadcalls = [];
         delayfn = void 0;
         if (typeof chrome !== "undefined" && chrome.extension) {
